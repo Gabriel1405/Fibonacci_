@@ -1,0 +1,14 @@
+Para la realzacion del proyecto se utilizo el lenguaje C# en Net. Core 3.1, se creo un proyecto API Rest y un metodo Get que recibe un valor entero para obtener el valor fibonacci
+ devuelve un string.
+ 
+cuando se ejecute el proyecto se probara con la ruta Home/{número entero}, y devolvera el valor del fibonaci.
+
+Al ser esta una primera version hay algunos detalles que no se han considerado.
+
+No se ha agregado seguridad lo cual se puede hacer en una proxima version.
+
+No se valida si el valor ingresado en realidad es un numero, de la misma manera se puede considerar para una proxima version.
+
+Tampoco se agrego un numero maximo de peticiones en un tiempo determinado, esto puede hacer que se hagan multiples peticiones y el metodo sature.
+
+En caso que haya alguna error, no se cuenta con una estructura de errores para que el usuario sepa que ha pasado con la apliación.
